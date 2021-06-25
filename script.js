@@ -1,11 +1,11 @@
 function compute(){
-      var a= document.getElementById("amount").value;
+      var a= document.getElementById("principal").value;
         var sa = document.getElementById("rate").value;
       
       var time = document.getElementById("year").value;
           if(a <= 0){
             alert("Enter positive Amount");
-            document.getElementById("amount").focus();
+            document.getElementById("principal").focus();
           }
       else{
       var answer = (a*time*sa)/100;
